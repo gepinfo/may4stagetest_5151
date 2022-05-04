@@ -235,7 +235,7 @@ services:
     image: systementry-5151
     container_name: systementry-5151
     ports: 
-      - 8010:8010
+      - 8011:8011
     env_file: .env
     depends_on:
       - mongo
